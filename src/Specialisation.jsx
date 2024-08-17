@@ -61,7 +61,7 @@ const Specialisation = () => {
           initial="hidden"
           animate={controls}
           variants={containerVariants}
-          className="grid grid-cols-2 justify-items-center md:grid-cols-6 gap-12 my-10 md:items-center"
+          className="grid grid-cols-2 justify-items-center gap-10 md: md:grid-cols-6 md:gap-12 my-10 md:items-center"
         >
           <motion.img
             className="w-10 h-10"
@@ -108,15 +108,21 @@ const Specialisation = () => {
           variants={containerVariants}
         >
           <motion.div className="px-6 text-center" variants={childVariants}>
-            <span className="text-red-500 text-4xl font-bold mb-2">2+</span>
+            <span className="text-red-500 text-3xl md:text-4xl font-bold mb-2">
+              2+
+            </span>
             <p className="mt-4 font-semibold">Years of Experience</p>
           </motion.div>
           <motion.div className="px-6 text-center" variants={childVariants}>
-            <span className="text-red-500 text-4xl font-bold mb-2">98%</span>
+            <span className="text-red-500 text-3xl md:text-4xl font-bold mb-2">
+              98%
+            </span>
             <p className="mt-4 font-semibold">Project Delivered on Time</p>
           </motion.div>
           <motion.div className="px-6 text-center" variants={childVariants}>
-            <span className="text-red-500 text-4xl font-bold mb-2">97%</span>
+            <span className="text-red-500 text-3xl md:text-4xl font-bold mb-2">
+              97%
+            </span>
             <p className="mt-4 font-semibold">Positive Feedback</p>
           </motion.div>
         </motion.div>

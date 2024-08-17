@@ -10,14 +10,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="max-w-5xl p-5 mx-auto">
+    <div className="max-w-5xl p-5 mx-auto relative">
       <div className="w-full flex items-center justify-between">
         <div className="flex flex-row items-center">
           <Lottie className="w-9" loop={true} animationData={K}></Lottie>
           <p className="text-lg font-extrabold">Karthik Ilamurugu Porchelvan</p>
         </div>
 
-        {/* Hamburger Icon for Smaller Screens */}
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
@@ -40,12 +39,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Navigation Items */}
-        <div
-          className={`${
-            isOpen ? "block" : "hidden"
-          } md:flex flex-col md:flex-row items-center w-full md:w-auto`}
-        >
+        <div className="hidden md:flex items-center">
           <p className="text-red-500 font-semibold mx-4">
             Web Developer | UX Engineer
           </p>
@@ -58,6 +52,23 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+
+      {isOpen && (
+        <div className="absolute top-full left-0 w-full bg-white shadow-lg rounded-lg mt-2 z-50">
+          <div className="flex flex-col items-center justify-center p-4 space-y-4">
+            <p className="text-red-500 font-semibold">
+              Web Developer | UX Engineer
+            </p>
+            <a href="" className="text-center">
+              Resume
+            </a>
+            <div className="w-full border-t border-gray-200"></div>
+            <button className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 tracking-wider">
+              Hire Me!
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
