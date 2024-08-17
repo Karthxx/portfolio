@@ -61,7 +61,7 @@ const Specialisation = () => {
           initial="hidden"
           animate={controls}
           variants={containerVariants}
-          className="grid grid-cols-6 gap-12 my-10 items-center"
+          className="grid grid-cols-2 justify-items-center md:grid-cols-6 gap-12 my-10 md:items-center"
         >
           <motion.img
             className="w-10 h-10"

@@ -39,15 +39,18 @@ const Hero = () => {
   };
 
   return (
-    <div className="max-w-4xl flex flex-row">
+    <div className="max-w-4xl mt-24 md:mt-0 flex flex-col sm:flex-row">
       <motion.div
         ref={ref}
         initial="hidden"
         animate={controls}
         variants={containerVariants}
-        className="w-4/5 flex flex-col justify-center items-start"
+        className=" mx-auto md:w-4/5 flex flex-col justify-center items-start"
       >
-        <motion.p className="text-5xl font-bold my-4" variants={childVariants}>
+        <motion.p
+          className="text-4xl md:text-5xl font-bold my-4"
+          variants={childVariants}
+        >
           {` 👋🏽 Hello! I'm Karthik!`}
         </motion.p>
         <motion.h1
@@ -71,7 +74,7 @@ const Hero = () => {
         initial="hidden"
         animate={controls}
         variants={childVariants}
-        className="w-2/4 flex justify-center"
+        className="md:w-2/4 flex justify-center"
       >
         <Lottie loop={true} animationData={K} />
       </motion.div>
