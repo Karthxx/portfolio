@@ -54,7 +54,7 @@ const Hero = () => {
           {` 👋🏽 Hello! I'm Karthik!`}
         </motion.p>
         <motion.h1
-          className="text-lg font-medium my-4"
+          className="text-base font-medium my-4"
           variants={childVariants}
         >
           A Software Engineer Specialising in JavaScript,
@@ -74,7 +74,7 @@ const Hero = () => {
         initial="hidden"
         animate={controls}
         variants={childVariants}
-        className="md:w-2/4 flex justify-center"
+        className=" w-3/4 mx-auto md:w-2/4 flex justify-center"
       >
         <Lottie loop={true} animationData={K} />
       </motion.div>

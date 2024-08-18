@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="max-w-5xl p-5 mx-auto relative">
+    <div className="max-w-5xl py-4 px-1 mx-auto relative">
       <div className="w-full flex items-center justify-between">
         <div className="flex flex-row items-center">
           <Lottie className="w-9" loop={true} animationData={K}></Lottie>
