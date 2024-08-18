@@ -1,12 +1,17 @@
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Lottie from "lottie-react";
 import JavaScript from "./assets/logos/js.svg";
 import ReactJS from "./assets/logos/react.svg";
 import TailwindCss from "./assets/logos/tailwindcss.webp";
 import mongoDB from "./assets/logos/mongodb.png";
 import HTML from "./assets/logos/html.svg";
 import CSS from "./assets/logos/css.svg";
+import Web from "./assets/Web.json";
+import Data from "./assets/Data.json";
+import UXD from "./assets/UXD.json";
+import UXR from "./assets/UXR.json";
 
 const Specialisation = () => {
   const controls = useAnimation();
@@ -43,7 +48,7 @@ const Specialisation = () => {
   };
 
   return (
-    <div>
+    <div className="max-w-4xl">
       <motion.div
         ref={ref}
         initial="hidden"
@@ -101,7 +106,7 @@ const Specialisation = () => {
           />
         </motion.div>
         <motion.div
-          className="flex flex-row mt-20"
+          className="flex flex-row mt-20 justify-center"
           ref={ref}
           initial="hidden"
           animate={controls}
@@ -124,6 +129,58 @@ const Specialisation = () => {
               97%
             </span>
             <p className="mt-4 font-semibold">Positive Feedback</p>
+          </motion.div>
+        </motion.div>
+        <motion.div
+          className="md:flex md:flex-row text-center mt-8 md:mt-20 "
+          ref={ref}
+          initial="hidden"
+          animate={controls}
+          variants={containerVariants}
+        >
+          <motion.div className="m-5" variants={childVariants}>
+            <Lottie
+              className="w-32 mx-auto"
+              loop={true}
+              animationData={Web}
+            ></Lottie>
+            <h3 className="font-bold my-2">Web Development</h3>
+            <p className=" py-3 font-extralight">
+              From design to code, bringing visions to life.
+            </p>
+          </motion.div>
+          <motion.div className="m-5" variants={childVariants}>
+            <Lottie
+              className="w-32 mx-auto"
+              loop={true}
+              animationData={Data}
+            ></Lottie>
+            <h3 className="font-bold my-2">Data & Analytics</h3>
+            <p className=" py-3 font-extralight">
+              Optimising experiences through data-driven decisions.
+            </p>
+          </motion.div>
+          <motion.div className="m-5" variants={childVariants}>
+            <Lottie
+              className="w-32 mx-auto"
+              loop={true}
+              animationData={UXD}
+            ></Lottie>
+            <h3 className="font-bold my-2">UX Design</h3>
+            <p className=" py-3 font-extralight">
+              Discover captivating interfaces tailored to user needs.
+            </p>
+          </motion.div>
+          <motion.div className="m-5" variants={childVariants}>
+            <Lottie
+              className="w-32 mx-auto"
+              loop={true}
+              animationData={UXR}
+            ></Lottie>
+            <h3 className="font-bold my-2">UX Research</h3>
+            <p className=" py-3 font-extralight">
+              Insights that drive innovation and user satisfaction.
+            </p>
           </motion.div>
         </motion.div>
       </motion.div>
