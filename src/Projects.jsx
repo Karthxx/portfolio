@@ -4,6 +4,8 @@ import { useInView } from "react-intersection-observer";
 import SMB from "./assets/ProjectsImgs/SMB.jpg";
 import Hotstar from "./assets/ProjectsImgs/Hotstar.jpg";
 import Insta from "./assets/ProjectsImgs/Insta.png";
+import RPSB from "./assets/ProjectsImgs/rps.jpg";
+
 const Projects = () => {
   const controls = useAnimation();
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -65,7 +67,20 @@ const Projects = () => {
           className="flex overflow-x-auto space-x-5 p-4 snap-x snap-mandatory scroll-px-4 no-scrollbar"
         >
           <div className="border rounded-md w-64 md:w-72 p-4 text-center flex-shrink-0 snap-start transition-transform duration-300 ease-in-out flex justify-center flex-col">
-            <img src={SMB} alt="" className="h-32" />
+            <img src={RPSB} alt="" className="h-32 object-fill" />
+            <h3 className="my-5 text-base font-semibold">
+              RpsBattle.io: Not your regular Rock Paper Scissors
+            </h3>
+
+            <a href="https://www.rpsbattle.io" target={"_blank"}>
+              <button className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3">
+                View Project
+              </button>
+            </a>
+          </div>
+
+          <div className="border rounded-md w-64 md:w-72 p-4 text-center flex-shrink-0 snap-start transition-transform duration-300 ease-in-out flex justify-center flex-col">
+            <img src={SMB} alt="" className="h-32 object-fill" />
             <h3 className="my-5 text-base font-semibold">
               Smart Mailbox: A Solution to Mitigate Package Theft
             </h3>
@@ -81,7 +96,7 @@ const Projects = () => {
           </div>
 
           <div className="border rounded-md w-64 md:w-72 p-4 text-center flex-shrink-0 snap-start transition-transform duration-300 ease-in-out flex justify-center flex-col">
-            <img src={Hotstar} alt="" className="h-32" />
+            <img src={Hotstar} alt="" className="h-32 object-fill" />
             <h3 className="my-5 text-base font-semibold">
               Hotstar Party: Watch Online With Your Friends
             </h3>
@@ -97,7 +112,7 @@ const Projects = () => {
           </div>
 
           <div className="border rounded-md w-64 md:w-72 p-4 text-center flex-shrink-0 snap-start transition-transform duration-300 ease-in-out flex justify-center flex-col">
-            <img src={Insta} alt="" className="h-32" />
+            <img src={Insta} alt="" className="h-32 object-fill" />
             <h3 className="my-5 text-base font-semibold">
               Instagram Premium: Ad-Free Social Interaction
             </h3>
