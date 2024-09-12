@@ -56,9 +56,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-lg rounded-lg mt-2 z-50">
           <div className="flex flex-col items-center justify-center p-4 space-y-4">
-            <p className="text-red-500 font-semibold">
-              Web Developer | UX Engineer
-            </p>
+            <p className="text-red-500 font-semibold">Software Engineer</p>
             <a href="" className="text-center">
               Resume
             </a>
