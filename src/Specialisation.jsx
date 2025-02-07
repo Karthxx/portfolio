@@ -59,7 +59,7 @@ const Specialisation = () => {
           className="text-lg font-bold text-center"
           variants={childVariants}
         >
-          Specialisation
+          Specialisations
         </motion.h2>
         <motion.div
           ref={ref}
