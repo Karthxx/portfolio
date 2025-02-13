@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center">
-          <p className="text-red-500 font-semibold mx-4">UX Engineer</p>
+          <p className="text-red-500 font-semibold mx-4">Software Engineer</p>
           <a className="mx-4" href="">
             Resume
           </a>

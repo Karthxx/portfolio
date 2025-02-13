@@ -57,7 +57,7 @@ const Hero = () => {
           className="text-base font-medium my-4"
           variants={childVariants}
         >
-          A UX Engineer Specialising in JavaScript,
+          A Software Engineer Specialising in JavaScript,
           <br />
           React, ExpressJS, and UX Design.
         </motion.h1>
