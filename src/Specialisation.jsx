@@ -114,7 +114,7 @@ const Specialisation = () => {
         >
           <motion.div className="px-6 text-center" variants={childVariants}>
             <span className="text-red-500 text-3xl md:text-4xl font-bold mb-2">
-              2+
+              1+
             </span>
             <p className="mt-4 font-semibold">Years of Experience</p>
           </motion.div>
@@ -142,28 +142,6 @@ const Specialisation = () => {
             <Lottie
               className="w-32 mx-auto"
               loop={true}
-              animationData={Web}
-            ></Lottie>
-            <h3 className="font-bold my-2">Web Development</h3>
-            <p className=" py-3 font-extralight">
-              From design to code, bringing visions to life.
-            </p>
-          </motion.div>
-          <motion.div className="m-5" variants={childVariants}>
-            <Lottie
-              className="w-32 mx-auto"
-              loop={true}
-              animationData={Data}
-            ></Lottie>
-            <h3 className="font-bold my-2">Data & Analytics</h3>
-            <p className=" py-3 font-extralight">
-              Optimising experiences through data-driven decisions.
-            </p>
-          </motion.div>
-          <motion.div className="m-5" variants={childVariants}>
-            <Lottie
-              className="w-32 mx-auto"
-              loop={true}
               animationData={UXD}
             ></Lottie>
             <h3 className="font-bold my-2">UX Design</h3>
@@ -180,6 +158,28 @@ const Specialisation = () => {
             <h3 className="font-bold my-2">UX Research</h3>
             <p className=" py-3 font-extralight">
               Insights that drive innovation and user satisfaction.
+            </p>
+          </motion.div>
+          <motion.div className="m-5" variants={childVariants}>
+            <Lottie
+              className="w-32 mx-auto"
+              loop={true}
+              animationData={Web}
+            ></Lottie>
+            <h3 className="font-bold my-2">Web Development</h3>
+            <p className=" py-3 font-extralight">
+              From design to code, bringing visions to life.
+            </p>
+          </motion.div>
+          <motion.div className="m-5" variants={childVariants}>
+            <Lottie
+              className="w-32 mx-auto"
+              loop={true}
+              animationData={Data}
+            ></Lottie>
+            <h3 className="font-bold my-2">Data & Analytics</h3>
+            <p className=" py-3 font-extralight">
+              Optimising experiences through data-driven decisions.
             </p>
           </motion.div>
         </motion.div>
