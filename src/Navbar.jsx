@@ -44,6 +44,8 @@ const Navbar = () => {
           <a
             className="mx-4"
             href="https://drive.google.com/file/d/19TBHj5xfZ0SsHwOuUNnK03PKD0oeW5ZK/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Resume
           </a>
@@ -60,6 +62,8 @@ const Navbar = () => {
             <p className="text-red-500 font-semibold">UX Designer</p>
             <a
               href="https://drive.google.com/file/d/19TBHj5xfZ0SsHwOuUNnK03PKD0oeW5ZK/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-center"
             >
               Resume
