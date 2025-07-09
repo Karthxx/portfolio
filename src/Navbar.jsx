@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center">
-          <p className="text-red-500 font-semibold mx-4">Software Engineer</p>
+          <p className="text-red-500 font-semibold mx-4">UX Designer</p>
           <a className="mx-4" href="">
             Resume
           </a>
@@ -54,7 +54,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-lg rounded-lg mt-2 z-50">
           <div className="flex flex-col items-center justify-center p-4 space-y-4">
-            <p className="text-red-500 font-semibold">Software Engineer</p>
+            <p className="text-red-500 font-semibold">UX Designer</p>
             <a href="" className="text-center">
               Resume
             </a>

@@ -142,11 +142,22 @@ const Specialisation = () => {
             <Lottie
               className="w-32 mx-auto"
               loop={true}
-              animationData={Web}
+              animationData={UXD}
             ></Lottie>
-            <h3 className="font-bold my-2">Web Development</h3>
+            <h3 className="font-bold my-2">UX Design</h3>
             <p className=" py-3 font-extralight">
-              From design to code, bringing visions to life.
+              Discover captivating interfaces tailored to user needs.
+            </p>
+          </motion.div>
+          <motion.div className="m-5" variants={childVariants}>
+            <Lottie
+              className="w-32 mx-auto"
+              loop={true}
+              animationData={UXR}
+            ></Lottie>
+            <h3 className="font-bold my-2">UX Research</h3>
+            <p className=" py-3 font-extralight">
+              Insights that drive innovation and user satisfaction.
             </p>
           </motion.div>
           <motion.div className="m-5" variants={childVariants}>
@@ -164,22 +175,11 @@ const Specialisation = () => {
             <Lottie
               className="w-32 mx-auto"
               loop={true}
-              animationData={UXD}
+              animationData={Web}
             ></Lottie>
-            <h3 className="font-bold my-2">UX Design</h3>
+            <h3 className="font-bold my-2">Web Development</h3>
             <p className=" py-3 font-extralight">
-              Discover captivating interfaces tailored to user needs.
-            </p>
-          </motion.div>
-          <motion.div className="m-5" variants={childVariants}>
-            <Lottie
-              className="w-32 mx-auto"
-              loop={true}
-              animationData={UXR}
-            ></Lottie>
-            <h3 className="font-bold my-2">UX Research</h3>
-            <p className=" py-3 font-extralight">
-              Insights that drive innovation and user satisfaction.
+              From design to code, bringing visions to life.
             </p>
           </motion.div>
         </motion.div>
