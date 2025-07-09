@@ -43,7 +43,7 @@ const Navbar = () => {
           <p className="text-red-500 font-semibold mx-4">UX Designer</p>
           <a
             className="mx-4"
-            href="https://drive.google.com/file/d/1wA72cbyJcDfELg3vKSaiKU61honn3v_I/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JsRTSc9QtJz5kJYkguNJ6gGL859LotaA/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -61,7 +61,7 @@ const Navbar = () => {
           <div className="flex flex-col items-center justify-center p-4 space-y-4">
             <p className="text-red-500 font-semibold">UX Designer</p>
             <a
-              href="https://drive.google.com/file/d/1wA72cbyJcDfELg3vKSaiKU61honn3v_I/view?usp=sharing"
+              href="https://drive.google.com/file/d/1JsRTSc9QtJz5kJYkguNJ6gGL859LotaA/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-center"
