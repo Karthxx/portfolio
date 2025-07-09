@@ -41,7 +41,10 @@ const Navbar = () => {
 
         <div className="hidden md:flex items-center">
           <p className="text-red-500 font-semibold mx-4">UX Designer</p>
-          <a className="mx-4" href="">
+          <a
+            className="mx-4"
+            href="https://drive.google.com/file/d/19TBHj5xfZ0SsHwOuUNnK03PKD0oeW5ZK/view?usp=sharing"
+          >
             Resume
           </a>
           <p className="mx-4">|</p>
