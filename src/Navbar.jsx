@@ -55,7 +55,10 @@ const Navbar = () => {
         <div className="absolute top-full left-0 w-full bg-white shadow-lg rounded-lg mt-2 z-50">
           <div className="flex flex-col items-center justify-center p-4 space-y-4">
             <p className="text-red-500 font-semibold">UX Designer</p>
-            <a href="" className="text-center">
+            <a
+              href="https://drive.google.com/file/d/19TBHj5xfZ0SsHwOuUNnK03PKD0oeW5ZK/view?usp=sharing"
+              className="text-center"
+            >
               Resume
             </a>
             <div className="w-full border-t border-gray-200"></div>
