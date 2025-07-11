@@ -57,9 +57,9 @@ const Hero = () => {
           className="text-base font-medium my-4"
           variants={childVariants}
         >
-          A UX Designer Specialising in UX Design,
+          A UX Designer Specialising in User-Centered Design,
           <br />
-          UX Research, Design Systems, and Web Development.
+          Interaction Design, Design Systems, and Web Development.
         </motion.h1>
         <motion.button
           className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 my2"
