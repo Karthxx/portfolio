@@ -5,7 +5,7 @@ import Lottie from "lottie-react";
 import JavaScript from "./assets/logos/js.svg";
 import ReactJS from "./assets/logos/react.svg";
 import TailwindCss from "./assets/logos/tailwindcss.webp";
-import mongoDB from "./assets/logos/mongodb.png";
+import Figma from "./assets/logos/figma.webp";
 import HTML from "./assets/logos/html.svg";
 import CSS from "./assets/logos/css.svg";
 import Web from "./assets/Web.json";
@@ -70,6 +70,12 @@ const Specialisation = () => {
         >
           <motion.img
             className="w-10 h-10"
+            src={Figma}
+            alt=""
+            variants={childVariants}
+          />
+          <motion.img
+            className="w-10 h-10"
             src={HTML}
             alt=""
             variants={childVariants}
@@ -95,12 +101,6 @@ const Specialisation = () => {
           <motion.img
             className="w-10 h-10"
             src={TailwindCss}
-            alt=""
-            variants={childVariants}
-          />
-          <motion.img
-            className="w-10 h-10"
-            src={mongoDB}
             alt=""
             variants={childVariants}
           />
