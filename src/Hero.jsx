@@ -58,7 +58,9 @@ const Hero = () => {
           variants={childVariants}
         >
           A Senior UX Designer Specialising in User-Centered Design,
-          <br />
+          <span className="hidden md:inline">
+            <br />
+          </span>
           Interaction Design, Design Systems, and Web Development.
         </motion.h1>
         <motion.button
