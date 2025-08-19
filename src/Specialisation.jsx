@@ -114,7 +114,7 @@ const Specialisation = () => {
         >
           <motion.div className="px-6 text-center" variants={childVariants}>
             <span className="text-red-500 text-3xl md:text-4xl font-bold mb-2">
-              2+
+              3+
             </span>
             <p className="mt-4 font-semibold">Years of Experience</p>
           </motion.div>

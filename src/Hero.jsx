@@ -57,7 +57,7 @@ const Hero = () => {
           className="text-base font-medium my-4"
           variants={childVariants}
         >
-          A UX Designer Specialising in User-Centered Design,
+          A Senior UX Designer Specialising in User-Centered Design,
           <br />
           Interaction Design, Design Systems, and Web Development.
         </motion.h1>
