@@ -72,7 +72,7 @@ const Projects = () => {
               RpsBattle.io: Not your regular Rock Paper Scissors
             </h3>
 
-            <a href="https://www.rpsbattle.io" target={"_blank"}>
+            <a href="https://rpsbattle-omega.vercel.app" target={"_blank"}>
               <button className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3">
                 View Project
               </button>
