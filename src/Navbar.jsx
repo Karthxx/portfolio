@@ -43,16 +43,18 @@ const Navbar = () => {
           <p className="text-red-500 font-semibold mx-4">Lead UX Designer</p>
           <a
             className="mx-4"
-            href="https://drive.google.com/file/d/1ISM9y60w0qz7D4ePfUd7-TX7QlXC2tdj/view?usp=sharing"
+            href="https://www.linkedin.com/in/karthxx"
             target="_blank"
             rel="noopener noreferrer"
           >
             Resume
           </a>
           <p className="mx-4">|</p>
-          <button className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 my-2 tracking-wider">
-            Hire Me!
-          </button>
+          <a href="https://www.linkedin.com/in/karthxx" target="_blank">
+            <button className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 my-2 tracking-wider">
+              Hire Me!
+            </button>
+          </a>
         </div>
       </div>
 
