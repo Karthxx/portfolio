@@ -114,7 +114,7 @@ const Specialisation = () => {
         >
           <motion.div className="px-6 text-center" variants={childVariants}>
             <span className="text-red-500 text-3xl md:text-4xl font-bold mb-2">
-              3+
+              4+
             </span>
             <p className="mt-4 font-semibold">Years of Experience</p>
           </motion.div>
@@ -144,9 +144,10 @@ const Specialisation = () => {
               loop={true}
               animationData={UXD}
             ></Lottie>
-            <h3 className="font-bold my-2">UX Design</h3>
+            <h3 className="font-bold my-2">UX Strategy</h3>
             <p className=" py-3 font-extralight">
-              Discover captivating interfaces tailored to user needs.
+              Driving product vision through user-centered strategy, scalable
+              systems, and cross-functional leadership.
             </p>
           </motion.div>
           <motion.div className="m-5" variants={childVariants}>
@@ -155,9 +156,10 @@ const Specialisation = () => {
               loop={true}
               animationData={UXR}
             ></Lottie>
-            <h3 className="font-bold my-2">UX Research</h3>
+            <h3 className="font-bold my-2">UX Leadership</h3>
             <p className=" py-3 font-extralight">
-              Insights that drive innovation and user satisfaction.
+              Leading research, design direction, and collaboration to create
+              impactful digital experiences.
             </p>
           </motion.div>
           <motion.div className="m-5" variants={childVariants}>
@@ -166,9 +168,10 @@ const Specialisation = () => {
               loop={true}
               animationData={Data}
             ></Lottie>
-            <h3 className="font-bold my-2">Data & Analytics</h3>
+            <h3 className="font-bold my-2">Experience Optimisation</h3>
             <p className=" py-3 font-extralight">
-              Optimising experiences through data-driven decisions.
+              Transforming insights and analytics into measurable business and
+              user outcomes.
             </p>
           </motion.div>
           <motion.div className="m-5" variants={childVariants}>
@@ -177,9 +180,10 @@ const Specialisation = () => {
               loop={true}
               animationData={Web}
             ></Lottie>
-            <h3 className="font-bold my-2">Web Development</h3>
+            <h3 className="font-bold my-2">Design-to-Delivery</h3>
             <p className=" py-3 font-extralight">
-              From design to code, bringing visions to life.
+              Bridging UX, business, and engineering to deliver seamless
+              enterprise solutions.
             </p>
           </motion.div>
         </motion.div>

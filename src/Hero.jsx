@@ -57,11 +57,11 @@ const Hero = () => {
           className="text-base font-medium my-4"
           variants={childVariants}
         >
-          A Senior UX Designer Specialising in User-Centered Design,
+          A Lead UX Designer Specialising in UX Strategy,
           <span className="hidden md:inline">
             <br />
           </span>
-          Interaction Design, Design Systems, and Web Development.
+          Enterprise Design Systems, and Web Development.
         </motion.h1>
         <motion.button
           className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 my2"
