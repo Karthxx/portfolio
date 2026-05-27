@@ -63,12 +63,14 @@ const Hero = () => {
           </span>
           Enterprise Design Systems, and Web Development.
         </motion.h1>
-        <motion.button
-          className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 my2"
-          variants={childVariants}
-        >
-          {`Let's Talk`}
-        </motion.button>
+        <a href="https://www.linkedin.com/in/karthxx" target={"_blank"}>
+          <motion.button
+            className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 my2"
+            variants={childVariants}
+          >
+            {`Let's Talk`}
+          </motion.button>
+        </a>
       </motion.div>
 
       <motion.div
