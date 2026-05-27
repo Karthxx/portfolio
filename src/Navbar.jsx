@@ -61,7 +61,7 @@ const Navbar = () => {
           <div className="flex flex-col items-center justify-center p-4 space-y-4">
             <p className="text-red-500 font-semibold">Lead UX Designer</p>
             <a
-              href="https://drive.google.com/file/d/1ISM9y60w0qz7D4ePfUd7-TX7QlXC2tdj/view?usp=sharing"
+              href="https://www.linkedin.com/in/karthxx"
               target="_blank"
               rel="noopener noreferrer"
               className="text-center"
