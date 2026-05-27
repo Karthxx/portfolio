@@ -168,7 +168,7 @@ const Specialisation = () => {
               loop={true}
               animationData={Data}
             ></Lottie>
-            <h3 className="font-bold my-2">Experience Optimisation</h3>
+            <h3 className="font-bold my-2">UX Optimisation</h3>
             <p className=" py-3 font-extralight">
               Transforming insights and analytics into measurable business and
               user outcomes.

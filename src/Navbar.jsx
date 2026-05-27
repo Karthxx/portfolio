@@ -69,9 +69,11 @@ const Navbar = () => {
               Resume
             </a>
             <div className="w-full border-t border-gray-200"></div>
-            <button className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 tracking-wider">
-              Hire Me!
-            </button>
+            <a href="https://www.linkedin.com/in/karthxx" target="_blank">
+              <button className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3 tracking-wider">
+                Hire Me!
+              </button>
+            </a>
           </div>
         </div>
       )}
