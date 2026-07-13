@@ -5,6 +5,7 @@ import SMB from "./assets/ProjectsImgs/SMB.jpg";
 import Hotstar from "./assets/ProjectsImgs/Hotstar.jpg";
 import Insta from "./assets/ProjectsImgs/Insta.png";
 import RPSB from "./assets/ProjectsImgs/rps.jpg";
+import Health from "./assets/ProjectsImgs/Healthcare.jpg";
 
 const Projects = () => {
   const controls = useAnimation();
@@ -66,6 +67,22 @@ const Projects = () => {
           variants={childVariants}
           className="flex overflow-x-auto space-x-5 p-4 snap-x snap-mandatory scroll-px-4 no-scrollbar"
         >
+          <div className="border rounded-md w-64 md:w-72 p-4 text-center flex-shrink-0 snap-start transition-transform duration-300 ease-in-out flex justify-center flex-col">
+            <img src={Health} alt="" className="h-32 object-fill" />
+            <h3 className="my-5 text-base font-semibold">
+              HealthCare Enterprise Portal
+            </h3>
+
+            <a
+              href="https://www.behance.net/gallery/252636553/Health-Care-Enterprise-Portal-Design"
+              target={"_blank"}
+            >
+              <button className="text-xs font-light uppercase bg-red-500 text-white px-6 py-3">
+                View Project
+              </button>
+            </a>
+          </div>
+
           <div className="border rounded-md w-64 md:w-72 p-4 text-center flex-shrink-0 snap-start transition-transform duration-300 ease-in-out flex justify-center flex-col">
             <img src={RPSB} alt="" className="h-32 object-fill" />
             <h3 className="my-5 text-base font-semibold">
