@@ -70,7 +70,7 @@ const Projects = () => {
           <div className="border rounded-md w-64 md:w-72 p-4 text-center flex-shrink-0 snap-start transition-transform duration-300 ease-in-out flex justify-center flex-col">
             <img src={Health} alt="" className="h-32 object-fill" />
             <h3 className="my-5 text-base font-semibold">
-              HealthCare Enterprise Portal
+              Enterprise HealthCare Portal Project
             </h3>
 
             <a
